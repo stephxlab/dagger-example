@@ -16,7 +16,7 @@ func NewMyStack(scope constructs.Construct, id string) cdktf.TerraformStack {
 
   cdktf.NewCloudBackend(stack, &cdktf.CloudBackendProps{ 
     Hostname: jsii.String("app.terraform.io"),
-    Organization: jsii.String("niccorp"),
+    Organization: jsii.String("stephxlab"),
     Workspaces: cdktf.NewNamedCloudWorkspace(jsii.String("dagger-example-dev")),
   })
 
@@ -32,7 +32,7 @@ func NewMyStack(scope constructs.Construct, id string) cdktf.TerraformStack {
 					HttpPort: jsii.Number(9090),
 					Image: &digitalocean.AppSpecServiceImage{
 						RegistryType: jsii.String("DOCKER_HUB"),
-						Registry:     jsii.String("nicholasjackson"),
+						Registry:     jsii.String("stephxlab"),
 						Repository:   jsii.String("dagger-example"),
 						Tag:          jsii.String("latest"),
 					},
