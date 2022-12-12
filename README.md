@@ -1,5 +1,7 @@
-# Pipelines as Code with Go, Dagger, and Terraform
+# Pipelines as Code with Go, Dagger, and Terraform [ORIGINAL SOURCE https://github.com/nicholasjackson/dagger-example/tree/part3]
+This is a clone to reproduce the excellent mini series of Nicholas Jackson Part 3.
 
+From original Nicholas Jackson : 
 Source code to accompany the YouTube mini series where I investigate dagger.io for building CI/CD
 pipelines for Go applications.
 
