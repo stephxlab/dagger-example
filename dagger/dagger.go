@@ -77,7 +77,7 @@ func apply() error {
       Args: []string{"cp", "/tmp/dagger-example","/bin/dagger-example"},
     }).
     WithEntrypoint([]string{"/bin/dagger-example"}).
-		Publish(ctx, "nicholasjackson/dagger-example:latest")
+		Publish(ctx, "stephxlab/dagger-example:latest")
 
 	if err != nil {
 		return fmt.Errorf("Error creating and pushing container: %s", err)
